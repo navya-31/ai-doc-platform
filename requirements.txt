@@ -10,3 +10,4 @@ requests==2.31.0
 
 # IMPORTANT: ADD THIS
 google-generativeai==0.4.1
+gunicorn
