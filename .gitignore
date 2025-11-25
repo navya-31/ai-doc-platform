@@ -1,0 +1,50 @@
+# Ignore Python virtual environment
+backend/venv/
+venv/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore DB file
+*.db
+
+# Ignore cache folders
+__pycache__/
+
+# Ignore Windows/OneDrive metadata
+desktop.ini
+Thumbs.db
+
+
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Databases
+*.db
+
+# API keys / env files
+.env
+*.env
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node (future)
+node_modules/
+
+# Logs
+*.log
