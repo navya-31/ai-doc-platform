@@ -590,7 +590,14 @@ def make_app():
     return app
 
 
+# if __name__ == "__main__":
+#     app = make_app()
+#     port = int(os.environ.get("PORT", 5000))
+#     app.run(host="0.0.0.0", port=port, debug=False)
+
+# Create app instance for Gunicorn
+app = make_app()
+
 if __name__ == "__main__":
-    app = make_app()
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
