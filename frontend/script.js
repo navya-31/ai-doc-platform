@@ -433,9 +433,11 @@
 
 
 // script.js - Complete frontend with all features
-const API_BASE = (function(){
-  return window.API_BASE || "http://127.0.0.1:5000/api";
-})();
+// const API_BASE = (function(){
+//   return window.API_BASE || "http://127.0.0.1:5000/api";
+// })();
+
+const API_BASE = "https://ai-doc-platform-5.onrender.com";
 
 function storageSet(obj) {
   localStorage.setItem("ai_doc", JSON.stringify(obj));
